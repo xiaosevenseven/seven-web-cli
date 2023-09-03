@@ -1,0 +1,23 @@
+{
+  "name": "seven-web-cli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "seven-web-cli": "bin/index.js"
+  },  
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaosevenseven/seven-web-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaosevenseven/seven-web-cli/issues"
+  },
+  "homepage": "https://github.com/xiaosevenseven/seven-web-cli#readme"
+}
