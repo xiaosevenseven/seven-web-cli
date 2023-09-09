@@ -4,8 +4,11 @@
   "description": "",
   "bin": {
     "seven-web-cli": "bin/index.js"
-  },  
+  },
   "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/xiaosevenseven/seven-web-cli/issues"
   },
-  "homepage": "https://github.com/xiaosevenseven/seven-web-cli#readme"
+  "homepage": "https://github.com/xiaosevenseven/seven-web-cli#readme",
+  "dependencies": {
+    "lerna": "^7.2.0"
+  }
 }
